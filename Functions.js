@@ -1,8 +1,11 @@
 //Iteracion #1: Buscar el máximo
 //Completa la función que tomando dos números como argumento devuelva el más alto.
 function sum(numberOne, numberTwo) {
-  let highNumber= numberOne > numberTwo ? numberOne : numberTwo;
-  return highNumber;
+  if(numberOne > numberTwo) {
+    return numberOne;
+  }else{
+    return numberTwo;
+  }
 }
 
 //Iteracion #2: Buscar la palabra mas larga
