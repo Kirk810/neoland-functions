@@ -143,6 +143,5 @@ function repeatCounter(param) {
         
   });return repeticiones;
 
-
  console.log(repeatCounter(counterWords))
 
